@@ -15,7 +15,7 @@ The development of Imposm is sponsored by [Omniscale](https://omniscale.com/).
 
 Installation
 ------------
-You need Go Compiler before doing any thing.
+You need Go Compiler and [tdm-gcc](https://jmeubank.github.io/tdm-gcc/) before doing any thing.
 
 `1. Create a new directory and name it anything you want.`
 
@@ -32,7 +32,7 @@ There are some dependencies:
 
 #### Compiler
 
-You need [Go >=1.9](http://golang.org).
+You need [Go >=1.9](http://golang.org) and [tdm-gcc](https://jmeubank.github.io/tdm-gcc/).
 
 #### C/C++ libraries
 
