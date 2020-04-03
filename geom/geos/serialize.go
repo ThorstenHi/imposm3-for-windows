@@ -74,7 +74,7 @@ func (g *Geos) AsEwkbHex(geom *Geom) []byte {
 		return nil
 	}
 	result := C.GoBytes(unsafe.Pointer(buf), C.int(size))
-	C.free(unsafe.Pointer(buf))
+	//C.free(unsafe.Pointer(buf)) Commenting this line had not bad effect on memmory usage. At least it is not much.
 
 	return result
 
