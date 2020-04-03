@@ -17,7 +17,11 @@ Installation
 ------------
 You need Go Compiler before doing any thing.
 
-Execute "install.ps1".
+`1. Create a new directory and name it anything you want.`
+
+`2. Download "install.ps1" from this repository and place it in your directory.`
+
+`3. Execute "install.ps1".`
 
 After execution of the install script, binaries will be in "bin" directory.
 
