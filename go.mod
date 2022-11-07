@@ -1,4 +1,4 @@
-module github.com/omniscale/imposm3
+module github.com/ThorstenHi/imposm3-for-windows
 
 go 1.12
 
